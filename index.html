@@ -7,23 +7,147 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Body Page -->
-    <div class="Main">
-      <!-- Header -->
-      <div class="Header">
-        <!-- HeaderWrapper -->
-        <div class="HeaderWrapper">
-          <!-- Navs  -->
-          <img src="assets/Dribbble-Logo.png" alt="" class="Dribbble-Logo" />
-          <div class="Navigator">
-            <nav>Home</nav>
-            <nav>Chart</nav>
-            <nav>Price</nav>
-            <nav>About Us</nav>
-            <nav>Contact Us</nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    <h1>Hello World!</h1>
+    <h2>see u</h2>
+    <h3>am a boy</h3>
+    <h4>am a girl</h4>
+    <h5>i love food</h5>
+    <h6>i love my mom</h6>
+    <p>
+      This is a <br />
+      paragraph
+    </p>
+    <span>This is a span</span>
+    <div style="color: blue">Dribbble</div>
+    <a href="index.css">see section one </a>
+    <center>HI</center>
+    <hr />
+    <pre> # python code  x = 2 y = 2 print(x+y) </pre>
+    <table>
+      see am abe
+    </table>
+    <h1>Core attribute</h1>
+    <p id="para1">id: is the unique name which can be given to any tag.</p>
+    <span class="c_blue">Class: can be used with multiple tags</span>
+    <p style="font-weight: bold">
+      Style: can used to change the formatting of the text in HTML design
+    </p>
+    <center>List of attribute</center>
+    <p id="dhg">user defined names</p>
+    <p class="fkgi">user defined names</p>
+    <p style="display: block">CSS Style</p>
+    <p align="left">left right center</p>
+    <p width="100%">numeric value or % value</p>
+    <p height="199%">numeric value</p>
+    <table class="table">
+      <caption>
+        Table 1 : Various tags of table
+      </caption>
+      <tr class="tet">
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <tr class="data">
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <tr class="txt">
+            <td colspan="2">New Data 1</td>
+            <td >New Data 2</td>
+          </tr>
+        </tr>
+      </tr>
+    </table>
+    <table border="1" bordercolor="black">
+      <caption>Table 2 : width is 80% </caption>
+      <tr bgcolor="red">
+      </tr>
+      <th>Column 1 </th>
+      <th>Column 2 </th>
+      <th>Column 3 </th>
+      <tr class="data">
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+        <tr class="txt">
+          <td colspan="2">New Data 1</td>
+          <td >New Data 2</td>
+        </tr>
+      </tr>
+    </table>
+    <b>bold</b>
+    <i>italic</i>
+    <u>underlines</u>
+    <strike>strike</strike>
+    <del>del</del>
+    <sup>superscript</sup>
+    <sub>subscript</sub>
+    <big>big size text</big>
+    <small>small size text</small>
+    <img src="assets/Dribbble-Logo.png" alt="Dribbble logo" class="img">
+    <ul>unordered list <li>pen</li><li>pencil</li><li>Eraser</li></ul>
+
+    <ul type="circle" >Change bullets: `square` `circle` or `disc` 
+      <li>Pen</li>
+      <li>Pencil</li>
+      <li>Eraser</li>
+    </ul>
+    <ol>Ordered list 
+      <li>pen</li>
+      <li>pencil</li>
+      <li>eraser</li>
+    </ol>
+    <ol type="i">Change style: `i`, `I`, `1`, `a` or `A`
+      <li>pen</li>
+      <li>pencil</li>
+      <li>eraser</li>
+    </ol>
+    <p>Go to paragraph with <a href="index.html">id="para1"</a></p>
+
+    <form>
+      <h4>Text input</h4>
+      Name : <input type="text" name="user_name" size="4" value="e.g. meher21" maxlength="10">
+      <br> Password : <input type="password" name="user_pass"> <br>
+      <h4>Radio button: name should be same</h4>
+      <input type="radio" name="r_gender"> Male
+      <input type="radio" name="r_gender"> Female
+      <input type="radio" name="r_gender" checked> Infant
+      <h4>Check box : name should be different</h4>
+      <input type="checkbox" name="c_male" checked> Male
+      <input type="checkbox" name="c_female" > Female
+      <input type="checkbox" name="c_infant" > Infant
+      <h4>Select box : drop-down</h4>
+      <select name="s_box">
+        <option value="s_male">Male</option>
+        <option value="s_female">Female</option>
+        <option value="s_infant">Infant</option>
+      </select>
+      <h4>Select box : scroll</h4>
+      <select name="s_box" size="4" multiple>
+        <option value="s_male" selected>Male</option> 
+        <option value="s_female" selected>Female</option>
+        <option value="s_infant" selected>Infant 1</option>
+        <option value="s_infant" selected>Infant 2</option>
+        <option value="s_infant" selected>Infant 3</option>
+      </select>
+      <h4>Text area</h4>
+      <textarea name="txt-data" rows="10" cols="80">
+        Initial Text x = 2 
+        y = 3
+
+      </textarea>
+    </form>
+    <form method="get|post" action="index.html">
+      <h4>buttons and Hidden</h4>
+      Name: <input type="text" name="user_name" size="4" value="Meher" maxlength="16">
+      <br>
+      password: <input type="password" name="user_pass"  >
+      <br>
+      <input type="button" onclick="alert(`hello`)" name="b_alert" value="Say Hello">
+      <br>
+<input type="submit" name="b_submit" value="Go to jQuery">
+<input type="reset" name="h_data" value="Reset">
+<input type="hidden" name="h_data" value="html_tutorial">
+    </form>
+  </body
 </html>

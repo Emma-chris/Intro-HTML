@@ -3,38 +3,25 @@
   padding: 0;
 }
 
-.Main {
-  height: 100vh;
-  width: 100vw;
+.table {
+  border: 1;
+  border-color: black;
+  width: 450px;
+  height: 100px;
 }
 
-.Header {
-  height: 70px;
-  width: 100%;
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.tet {
+  background-color: red;
 }
 
-.HeaderWrapper {
-  height: 100%;
-  width: 95%;
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.data {
+  background-color: cyan;
 }
 
-.Dribbble-Logo {
-  height: 80%;
-  width: 20%;
+.txt {
+  background-color: yellow;
 }
 
-.Navigator {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20%;
-  font-size: large;
+.img {
+  width: 70px;
 }
